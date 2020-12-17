@@ -1,0 +1,92 @@
+/* index page css */
+@import url();
+*{
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+html{
+	font-size: 30px;
+	overflow: scroll;
+}
+a{
+	text-decoration: none;
+}
+footer{
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	padding: 15px;
+	background-color: #f2f2fc;
+	line-height: 45px;
+	border-top: 1px solid #e8dfec;
+}
+.container{
+	min-height:100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+body{
+	margin: 0;
+	line-height: 1.5;
+	background-color: #f2f2fc;
+}
+
+#hero {
+	background-image: url("lander.jpg");
+	background-color: gray;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	position:relative;
+	z-index: 1;
+}
+
+#hero::after{
+	content: '';
+	position: absolute;
+	left: 0; 
+	top: 0;
+	height: 0;
+	width: 100%;
+	background-color: black;
+	opacity: .7; 
+	z-index: -1;
+}
+#hero .hero{
+	max-width: 1500px;
+	margin: 0 auto;
+;	
+}
+#hero h1{
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: white;
+}
+#hero .cta{
+	display: inline-block;
+	padding: 10px 15pc;
+	color: crimson	;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color; 
+}
+#hero .cta:hover{
+	color: white;
+	background-color: crimson;
+}
+
