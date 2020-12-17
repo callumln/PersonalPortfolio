@@ -90,3 +90,104 @@ body{
 	background-color: crimson;
 }
 
+/* model page css */
+.section{
+	background-color: #f2f2fc;
+	min-height: 100vh;
+	display: block;
+}
+.main-content{
+	padding-left:270px;
+}
+.aside{
+	width: 270px;
+	background-color: #fdf9ff;
+	position: fixed;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	border-right:1px solid #e8dfec;
+}
+.aside .nav{
+	margin: 80px;
+}
+.aside .nav li a{
+	display:block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 45px;
+	display: block;
+	border-bottom:1px solid #e8dfec;
+	color: crimson;
+}
+.aside .nav li a:hover{
+	padding-left: 5px;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: f2f2fc;
+	line-height: 45px;
+	border-bottom: 1px solid #e8dfec;
+}
+.header p{
+	text-align: center;
+	color: crimson;
+	font-size: 50px;
+}
+.header img{
+	float: left;
+}
+.moon{
+	margin: 10px auto;
+	width: 1000px;
+	
+}
+video {
+	width: 98%;	
+}
+.spaceship{
+	display: block;
+	margin: 10px auto;
+	width: 1000px
+}
+.spaceship img{
+	width: 32%;
+}
+.moon{
+	display: block;
+	position: inline;
+}
+h1{
+	width: fit-content;
+	font-size: 4rem;
+	color: crimson;
+}
+.favela{
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+}
+.buildings{
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+}
+.WBC{
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+}
+.soylentgreen{
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+}
+.soylent{
+	display: block;
+	margin: 10px auto;
+	width: 1000px;
+	justify-content: center;
+}
