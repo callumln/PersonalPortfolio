@@ -1,7 +1,17 @@
 [callu@LAPTOP-KG65S8QL /cygdrive/c/users/callu/uni/digitaltec/assesment2/PersonalPortfolio]$ git log
 commit c3998312d34a29382f437be9a15f876d619222ae (HEAD -> main, origin/main, origin/HEAD)
 Author: callum <callum.lauchlan007@gmail.com>
-Date:   Thu Dec 17 14:24:45 2020 +0000
+Date:   Thu Dec 17 03:46:20 2020 +0000
+
+    java
+
+commit a697a2f0d9f4427949cd1ce1b23d9af664b3b430
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Wed Dec 16 18:38:45 2020 +0000
+
+    log
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Tue Dec 15 14:24:45 2020 +0000
 
     css
 
