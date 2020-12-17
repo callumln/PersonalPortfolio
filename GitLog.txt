@@ -1,0 +1,41 @@
+[callu@LAPTOP-KG65S8QL /cygdrive/c/users/callu/uni/digitaltec/assesment2/PersonalPortfolio]$ git log
+commit c3998312d34a29382f437be9a15f876d619222ae (HEAD -> main, origin/main, origin/HEAD)
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Thu Dec 17 14:24:45 2020 +0000
+
+    css
+
+commit d26ca43cfd93109ed71ff56ba836f88cbf4dee12
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Tue Dec 15 15:13:46 2020 +0000
+
+    css
+
+commit 62ec1ad50b0b36b160cf339041de626e3fd1576d
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Fri Dec 11 13:53:40 2020 +0000
+
+    css
+
+commit 6160c5b6477d50e3c344b1106e78a8d7e1a5c137
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Thu Sat 05 14:43:44 2020 +0000
+
+    vids and imgs
+
+commit 9d4273a6521934e1dfc6e981e10285c373df041d
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Thu Wed 02 18:12:43 2020 +0000
+
+    correct html file
+
+commit 77e6e969c3a4e69c6c7db23b08560232cea60f9c
+Author: callum <callum.lauchlan007@gmail.com>
+Date:   Sun Nov 29 23:33:04 2020 +0000
+
+    html
+
+commit 8a10d892117089a40a7d27e057ad9f65844eb83c
+Author: callum <callum.lauchlan007@gmail.com>
+
+[1]+  Stopped                 git log
