@@ -92,7 +92,13 @@
 				<img src="soylent.jpg" height="200" width="320">
 			</div>
 		
-
+		<footer>
+			<script>
+			var year = new Date().getFullYear();
+			var date = '&copy; Callum Lauchlan ${year}.';
+			document.getElementsByTagName('footer')[0].innerHTML = year;
+			</script>
+		</footer>
 		</div>
 		</section>
 

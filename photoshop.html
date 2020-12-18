@@ -22,7 +22,14 @@
 	
 
 	<div class="main-content">
-	
+			<div class="header">
+				<div class="logo">
+					<img src="#" height="75" width="75">
+				</div>
+				<div class="name" onclick="newStyle();">
+					<p class="centered" id="myName">Callum Lauchlan</p>
+				</div>
+			</div>
 	
 	<section class="home section">
 		<div class="backgrounds">
@@ -96,7 +103,13 @@
 			<p>When making my designs I thought it would be a good idea to use photoshop to make my drawings look neater and clearer and I think from doing this it actually made my 
 			designs look better and I think this was because if I added colour to the orginal drawings it wouldn't have looked as nice</p>
 		</div>
-	
+		<footer>
+			<script>
+				var year = new Date().getFullYear();
+				var date = '&copy; Callum Lauchlan ${year}.';
+				document.getElementsByTagName('footer')[0].innerHTML = year;
+			</script>
+		</footer>
 		</section>
 
 		

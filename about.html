@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="with=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="java.js"></script>
 	<title>About</title>
 </head>
 <body>
@@ -20,7 +21,15 @@
 	</div>
 	
 	<div class="main-content">
-	
+			<div class="header">
+				<div class="logo">
+					<img src="#" height="75" width="75">
+				</div>
+				<div class="name" onclick="newStyle();">
+					<p class="centered" id="myName">Callum Lauchlan</p>
+				</div>
+					
+			</div>		
 					
 		<section class="home section">
 	<div class="information">
@@ -47,23 +56,22 @@
 		<div class="photoshop">
 		<form action="photoshop.html">
 			<input type="image" src="photoshop.png" onmouseover="this.src='apolloedit.jpg'" onmouseout="this.src='photoshop.png'" alt="photoshop" width="200" height="200">
-		</form>
-		</div>
-		
-		<div id="after_effects">
-		<form action="after effectshtml">
 			<input type="image" src="after_effects.png" onmouseover="this.src='walkcycle.png'" onmouseout="this.src='after_effects.png'" alt="after effects" width="200" height="200">
-		</form>
-		</div>
-		
-		<div id="maya">
-		<form action="models.html">
 			<input type="image" src="maya.png" onmouseover="this.src='ring.png'" onmouseout="this.src='maya.png'" alt="after effects" width="200" height="200">
 		</form>
+		</div>
+
 		
 	</section>
-		
-		</section>
+	</section>
+		<footer>
+			<script>
+				var year = new Date().getFullYear();
+				var date = '&copy; Callum Lauchlan ${year}.';
+				document.getElementsByTagName('footer')[0].innerHTML = year;
+			</script>
+		</footer>		
+	
 
 	
 </div>

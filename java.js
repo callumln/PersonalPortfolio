@@ -1,31 +1,42 @@
 function newStyle() {
   let newColor = '';
   let newFont = ''; 
-  let x = Math.floor(Math.random()*5); 
+  let x = Math.floor(Math.random()*7); 
   switch (x){
     case 0:
-		newColor = 'black'; 
-        break;
+      newColor = 'red';
+      newFont = 'Times New Roman'; 
+      break;
     case 1: 
-		newColor = 'purple';
-        break;
+      newColor = 'blue';
+      newFont = 'Florence, cursive'; 
+      break;
     case 2:
-		newColor = 'blue';
-        break; 
+      newColor = 'yellow';
+      newFont = 'Verdana';
+      break; 
     case 3:
-		newColor= 'green';
-        break
+      newColor= 'purple';
+      newFont = 'Courier New';
+      break
     case 4:
-		newColor = 'yellow';
+      newColor = 'cyan';
+      newFont = 'Georgia'; 
+      break;
+    case 5:
+        newColor = 'maroon';
+        newFont = 'Palatino';
         break;
-	 case 5: 
-		newColor = 'red';
-		break;
+    case 6: 
+        newColor = 'lime';
+        newFont = 'Impact';
+        break;
   }
-  var elem = document.getElementById('myName');
+  var elem = document.getElementById('logo');
   elem.style.color = newColor;
   elem.style.fontFamily = newFont; 
 }
+
 
 var slideIndex = 0;
 showSlides();
